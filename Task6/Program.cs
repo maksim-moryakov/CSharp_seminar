@@ -6,11 +6,5 @@
 Console.WriteLine("Введите число, чтобы узнать является ли число чётным:");
 int a = int.Parse(Console.ReadLine());
 
-if (a % 2 == 0)
-{
-    Console.WriteLine("Число " + a + " четное.");
-}
-else
-{
-    Console.WriteLine("Число " + a + " нечетное.");
-}
+if (a % 2 == 0) {Console.WriteLine("Число " + a + " четное.");}
+else {Console.WriteLine("Число " + a + " нечетное.");}
