@@ -9,4 +9,3 @@ int number = int.Parse(Console.ReadLine());
 string numberStr = number.ToString();
 
 Console.WriteLine($"The second number - {numberStr[1]}");
-

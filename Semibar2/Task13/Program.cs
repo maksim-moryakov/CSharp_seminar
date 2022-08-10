@@ -7,5 +7,11 @@ Console.Clear();
 Console.WriteLine("Enter number: ");
 int number = int.Parse(Console.ReadLine());
 string? strNumber = number.ToString();
-if (strNumber.Length < 3){Console.WriteLine("There is no third number");}
-else {Console.WriteLine($"The third digit of a given number -> {strNumber[2]}");}
+if (strNumber.Length < 3)
+{
+    Console.WriteLine("There is no third number");
+}
+else
+{
+    Console.WriteLine($"The third digit of a given number -> {strNumber[2]}");
+}
