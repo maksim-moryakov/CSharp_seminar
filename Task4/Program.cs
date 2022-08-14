@@ -4,7 +4,9 @@
 22 3 9 -> 22 */
 
 Console.WriteLine("Введите три числа, чтобы узнать какое из трех чисел максимальное");
-int a, b, c = int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()),int.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine()); 
+int b = int.Parse(Console.ReadLine()); 
+int c = int.Parse(Console.ReadLine());
 
 if (a > b && a > c) {Console.WriteLine(a + " максимальное число");}
 else if (b > a && b > c) {Console.WriteLine(b + " максимальное число");}

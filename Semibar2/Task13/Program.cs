@@ -5,8 +5,7 @@
 
 Console.Clear();
 Console.WriteLine("Enter number: ");
-int number = int.Parse(Console.ReadLine());
-string? strNumber = number.ToString();
+string? strNumber = Console.ReadLine();
 if (strNumber.Length < 3)
 {
     Console.WriteLine("There is no third number");

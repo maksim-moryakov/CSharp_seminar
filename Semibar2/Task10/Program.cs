@@ -5,7 +5,6 @@
 
 Console.Clear();
 Console.WriteLine("Enter a three-digit number: ");
-int number = int.Parse(Console.ReadLine());
-string numberStr = number.ToString();
+string? numberStr = Console.ReadLine();
 
 Console.WriteLine($"The second number - {numberStr[1]}");
